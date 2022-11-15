@@ -7,7 +7,7 @@ Please provide url, username and password of your own online or local MySQL data
 in application.yml file
 
 To see all the APIs , copy and paste this link in your browser
-[https://glacial-sands-98241.herokuapp.com/swagger-ui/index.html](https://glacial-sands-98241.herokuapp.com/swagger-ui/index.html)
+[https://evening-garden-93563.herokuapp.com/swagger-ui/index.html](https://evening-garden-93563.herokuapp.com/swagger-ui/index.html)
 
 - POST https://glacial-sands-98241.herokuapp.com/roles (without Bearer Token) : to create role
 - GET https://glacial-sands-98241.herokuapp.com/roles (with Bearer Token): to get all roles
