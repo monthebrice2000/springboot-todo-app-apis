@@ -1,11 +1,12 @@
+
 spring:
   profiles:
     active: dev
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
-    username:
-    password:
+    url: jdbc:mysql://h1.host.filess.io:3306/TodoDB_mindpolein
+    username: TodoDB_mindpolein
+    password: 8aaddee681ac4fdded2b7383a7c68ba34f7c0429
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     generate-ddl: true
