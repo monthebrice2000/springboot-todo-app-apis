@@ -1,7 +1,13 @@
 # springboot-todo-app-apis
-I built secured APIs with Spring Security and testing it with Postman API. And I deployed it in Heroku for production
+I built secured APIs with Spring Security and testing it with Postman API or Swagger UI that I have implemented inside the application. And I deployed it in Heroku for production
 
 # All APIs
+
+Please provide url, username and password of your own online or local MySQL database
+in application.yml file
+
+To see all the APIs , copy and paste this link in your browser
+[https://glacial-sands-98241.herokuapp.com/swagger-ui/index.html](https://glacial-sands-98241.herokuapp.com/swagger-ui/index.html)
 
 - POST https://glacial-sands-98241.herokuapp.com/roles (without Bearer Token) : to create role
 - GET https://glacial-sands-98241.herokuapp.com/roles (with Bearer Token): to get all roles
@@ -13,3 +19,13 @@ I built secured APIs with Spring Security and testing it with Postman API. And I
 
 # Testing
 ** I recommand you to use Postman API to test your Apis and all will go best**
+
+To run application locally, run command like : 
+
+`mvnw install` 
+
+`java -jar ./target/<jar_name>.jar`
+
+
+You can use swagger-ui to test APIs like this :
+![swaggerResult.PNG](swaggerResult.PNG)

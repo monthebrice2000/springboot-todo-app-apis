@@ -41,7 +41,7 @@ public class JwtConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .cors().disable()
                 .authorizeRequests()
-                .antMatchers("/api/login","/api/register/**")
+                .antMatchers("/swagger-ui/**", "/v3/api-docs/**","/api/login","/api/register/**")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
